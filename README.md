@@ -1,9 +1,32 @@
 ## Data visualisation
-Single-page app for representing any database as graphs and charts.
+A single-page app for representing any Postgres database as graphs, charts or tables.
 
 ![img](/img/screenshot.png)
 
-User Stories
+## How to use
+This app uses Postgres as its database so you will need to have that installed. By default this app connects to a database called 'data_vis_development'. This is defined in config/db.js and can be changed according to your needs. Two seed files are provided with this project which you can use to see the app working.
+
+First clone the app and seed the database:
+```
+$ git clone https://github.com/cazwazacz/Database-visualization.git
+$ cd Database-visualization
+$ node seedMovies.js
+$ node seedSongs.js
+```
+
+To run the app:
+```
+$ node index.js
+```
+Visit http://localhost:3000 in your browser.
+
+For tests, run:
+
+```
+$ npm test
+```
+
+## User Stories
 
 ```
 As a user
