@@ -1,6 +1,7 @@
 ## Data visualisation
 Single-page app for representing any database as graphs and charts.
 
+![img](/img/screenshot.png)
 
 User Stories
 
@@ -25,4 +26,3 @@ As a User
 So that I can control the represented data even better
 I want to use various data-filters
 ```
-
